@@ -1,14 +1,19 @@
 # HackHunt — Tamil Nadu Hackathon Finder
 
-A responsive React and Vite application for discovering upcoming hackathons in Tamil Nadu. It includes city and format filters, search, event cards, and external source links.
+HackHunt is a responsive React and Vite application for discovering hackathons across Tamil Nadu. Browse event listings, search by name or location, narrow the list with filters, and save interesting opportunities for later.
 
 ## Features
 
-- Search by hackathon name, category, or city
-- Filter by Tamil Nadu city
-- Filter by online, offline, or hybrid format
-- Mobile-friendly responsive layout
-- External links to official and community hackathon sources
+- Search by hackathon name, category, format, or city
+- Filter by Tamil Nadu city, event format, and category
+- Sort events by soonest date, prize amount, or name
+- Save and revisit favorite events (stored in your browser)
+- See a countdown to each event
+- Responsive layout with mobile-friendly filter controls
+- Keyboard focus styling, accessible labels, and reduced-motion support
+- External links to event organizers
+
+> Event information is sample data and may change. Always confirm dates, prizes, and registration details on the organizer’s website.
 
 ## Prerequisites
 
@@ -36,4 +41,4 @@ npm run preview
 - React
 - Vite
 - Lucide React icons
-- Plain CSS
+- CSS
